@@ -42,3 +42,13 @@ Run the following command in the root of the project to compile the code and gen
 
 ```bash
 mvn clean package
+```
+## 2. Deploy to Tomcat
+1. Locate the generated file `target/demo.war`.
+2. Copy this file into the `webapps` directory of your Apache Tomcat installation.
+3. Start Tomcat (run `bin/startup.bat` on Windows or `bin/startup.sh` on Linux/macOS).
+
+
+
+## 3. Access the Application
+Open your browser and navigate to: [http://localhost:8081/demo/hello](http://localhost:8081/demo/hello)
