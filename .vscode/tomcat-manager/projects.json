@@ -1,0 +1,38 @@
+[
+  {
+    "id": "proj_mll0rkze_dg4_1",
+    "name": "demo",
+    "projectPath": "c:\\Users\\HP\\Documents\\TEC DE MONTERREY\\SOFTWARE DEVELOPMENT\\WEB DEVELOPMENT\\demo",
+    "contextPath": "ROOT",
+    "build": {
+      "type": "maven",
+      "buildCommand": "mvn clean package",
+      "outputDirectory": "target",
+      "warFileName": "demo.war",
+      "autoBuild": true
+    },
+    "hotDeploy": {
+      "enabled": true,
+      "watchExtensions": [
+        "java",
+        "jsp",
+        "html",
+        "css",
+        "js",
+        "xml"
+      ],
+      "excludeDirectories": [
+        "node_modules",
+        ".git",
+        "target"
+      ],
+      "deployDelay": 1000,
+      "restartApp": false
+    },
+    "environmentVariables": {},
+    "jvmArgs": [],
+    "createdAt": "2026-02-13T15:05:15.770Z",
+    "lastModified": "2026-02-13T15:05:15.770Z",
+    "enabled": true
+  }
+]
