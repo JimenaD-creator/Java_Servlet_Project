@@ -23,7 +23,7 @@ This project is a demonstration of a traditional Java Web application structured
 The project follows the standard Maven directory structure for web applications:
 
 ```text
-mywebapp/
+demo/
 ├── pom.xml                 # Maven configuration
 └── src/
     └── main/
@@ -34,3 +34,11 @@ mywebapp/
             │   └── web.xml # Web application descriptor
             ├── index.jsp   # Main view
             └── hello.jsp   # JSP view example
+```
+## How to Build and Run
+
+### 1. Build the WAR file
+Run the following command in the root of the project to compile the code and generate the `.war` package:
+
+```bash
+mvn clean package
